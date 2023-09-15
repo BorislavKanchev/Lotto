@@ -1,0 +1,6 @@
+/build
+/dist
+/lotto_app.spec
+/users.db
+/user_data.txt
+/__pycache__
