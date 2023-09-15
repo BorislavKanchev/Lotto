@@ -381,7 +381,7 @@ def shuffle_names(root, initial_listbox, drawn_listbox, shuffle_textbox):
         # Извеждане на съобщение, че изборът е приключил
         messagebox.showinfo("Изборът приключи", "Всички потребители са изтеглени!")
 
-def stop(root, initial_listbox, drawn_listbox, shuffle_textbox):
+def stop(root, initial_listbox, drawn_listbox):
     global drawn_users
     if initial_listbox.size() > 0:
         # Извличане на случайен потребител от първия списък
